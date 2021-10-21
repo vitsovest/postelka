@@ -14,3 +14,83 @@ header{
     max-width: 1140px;
     margin: auto;
 }
+
+h1{
+    font-size: 100px;
+    line-height: 100px;
+    color: #424856;
+    margin-bottom: 14px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+h3{
+    font-size: 50px;
+    line-height: 50px;
+    color: #424856;
+    margin-bottom: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+
+}
+h2{
+    font-size: 62px;
+    line-height: 62px;
+    color: #e48088;
+    margin-bottom: 31px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+
+}
+
+header a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    color: white;
+    font-size: 22px;
+    line-height: 72px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #4b5262;
+    align-content: center;
+    padding: 0 40px;
+}
+.rose_block{
+    background-color: #e36d77;
+    padding: 35px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 24px;
+}
+.material{
+    width: 292px;
+    position: relative;
+    margin-left: 28px;
+}
+.material:before{
+    content: "\f02b";
+    position: absolute;
+    left: -28px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.location{
+    width: 292px;
+    position: relative;
+}
+.location:before{
+    content: "\f3c5";
+    position: absolute;
+    left: -23px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.rose_block span{
+    font-weight: lighter;
+    display: block;
+}
+.rose_block .container{
+    display: flex;
+}
