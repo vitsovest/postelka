@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-image: url("../images/header_bg_01.png");
+    background-size: cover;
+    padding-top: 102px;
+    padding-bottom: 62px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
