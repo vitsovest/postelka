@@ -1,0 +1,40 @@
+@media only screen and (max-width: 768px) {
+h1{
+    font-size: 70px;
+    line-height: 70px;
+}
+h2{
+    font-size: 52px;
+    line-height: 52px;
+}
+    .container{
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h2{
+        font-size: 42px;
+        line-height: 42px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+    h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+    .container{
+        padding: 0 15px;
+    }
+}

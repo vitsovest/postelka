@@ -133,3 +133,62 @@ header a{
     display: block;
     width: 100%;
 }
+
+.item .description{
+    background-color: white;
+    padding: 20px 0 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item .description .order{
+    font-size: 18px;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.description .order span{
+    color: #e06d9f;
+}
+
+.description .range i{
+    font-size: 18px;
+    color: #f6bf17;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+.description .price .old_price{
+    margin-left: 12px;
+    display: inline-block;
+    font-size: 30px;
+    line-height: 20px;
+    position: relative;
+}
+
+.price .old_price .currency{
+    font-size: 20px;
+    display: block;
+    padding-top: 9px;
+    line-height: 18px;
+}
+
+.description .price .old_price:after{
+    content: "";
+    display: block;
+    width: 89px;
+    height: 5px;
+    background-color: #df6d9e;
+    position: absolute;
+    z-index: 0;
+    top: 10;
+    left: -10px;
+}
+
+.price .old_price span{
+    position: relative;
+    z-index: 1;
+}
