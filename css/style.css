@@ -94,3 +94,42 @@ header a{
 .rose_block .container{
     display: flex;
 }
+
+/**/
+.product{
+    padding-top: 84px;
+}
+
+.product .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product .item{
+    max-width: 361px;
+    width: 100%;
+    background-color: #f5f2ec;
+    position: relative;
+}
+
+.item .sale{
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #df6d9e;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 75px;
+    text-align: center;
+    position: absolute;
+    left: 23px;
+    top: -38px;
+}
+
+.item img{
+    display: block;
+    width: 100%;
+}
