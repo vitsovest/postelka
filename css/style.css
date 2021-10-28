@@ -161,6 +161,15 @@ header a{
     cursor: pointer;
 }
 
+.description .price{
+    font-size: 70px;
+    padding-top: 30px;
+    color: black;
+    line-height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
 .description .price .old_price{
     margin-left: 12px;
     display: inline-block;
@@ -184,7 +193,7 @@ header a{
     background-color: #df6d9e;
     position: absolute;
     z-index: 0;
-    top: 10;
+    top: 10px;
     left: -10px;
 }
 
